@@ -9,7 +9,7 @@
                         i know its not mobile response */
 .bgimg{
     background-color: hsl(185, 75%, 39%);
-    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
     background-size: 950px,1200px;
     background-repeat: no-repeat;
     background-position: top -400px left 0px , bottom -1000px right -180px;
