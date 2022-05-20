@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* below section is bgimg section  
+
+                        /* card style is based on 24" monitor
+                        i know its not mobile response */
+.bgimg{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-size: 950px,1200px;
+    background-repeat: no-repeat;
+    background-position: top -400px left 0px , bottom -1000px right -180px;
+    
+}
+
+.light-text{
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+.card {
+    
+    width: 350px;                                   /* width of the card */
+    margin-left: auto;                             /* margin-left&right to get the card in center */
+    margin-right: auto;
+    margin-top: 18%;                               /* margin top is to get the card in center */
+    border-radius: 5%;  
+    background-color: aliceblue;
+    font-family:'Kumbh Sans', sans-serif;   
+}
+.card-bgimg img{
+    border-radius: 6.5% 6.5% 0% 0% ;                /*  top left 6.5 right 6.5  bottom right0 bottom left0*/
+
+        
+}
+.avatar img{
+    position: relative;
+    bottom: 60px;                                     /*  moved 60 px above from doc flow to get center th card-bgimg*/
+    left: 125px;                                         /*  moved 125px left to right to get center in the card */
+    border: solid 8px white ;           
+    border-radius: 50%;         
+    
+}
+
+
+
+
+h1{
+    padding-left: 10px;
+    text-align: center;
+    position: relative;                     /* avatar didnt loss its original postion so  h1 ( name ) get large gap from doc flow  */
+    bottom: 50px;                           /* 50 px to adjust the doc flow */
+    margin: 10px;
+    font-size: 20px;
+}
+
+h3 ,hr{
+    margin-bottom: 8%;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* so called is the parent div of the k &imaginary  */
+.so-called{
+    padding:15px 20px;
+    margin-top: -20px;
+}
+.k {
+    
+    padding:3% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.imaginary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    font-size: small;
+    padding: 5px 35px;
+        
+}
